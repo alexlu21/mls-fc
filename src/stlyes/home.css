@@ -1,0 +1,36 @@
+/* Home.css */
+.home-container {
+    background-image: url('../assets/fondo_ia.webp'); /* Cambia esto a la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: #ffffff; /* Color del texto blanco para contrastar */
+    padding: 40px; /* Aumenta el espacio alrededor del contenido */
+  }
+  
+  header, section {
+    margin: 20px 0; /* Espaciado entre secciones */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+  }
+
+
+  .row {
+    display: flex; /* Utiliza Flexbox para alinear horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas si es necesario */
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-around; /* Alinea las imágenes horizontalmente */
+    flex-wrap: wrap; /* Permite que se envuelvan las imágenes si no hay suficiente espacio */
+  }
+  
+  .gallery img {
+    width: 45%; /* Ajusta el tamaño de las imágenes en la galería */
+    margin: 10px 0;
+  }
+  

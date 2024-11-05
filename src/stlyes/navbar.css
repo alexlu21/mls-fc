@@ -1,0 +1,32 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: rgba(59, 42, 42, 0.9); /* Color café oscuro con un 90% de opacidad */
+}
+
+.nav-link {
+  color: #f8f9fa; /* Texto blanco */
+}
+
+.nav-link:hover {
+  color: #ffe600; /* Color dorado en hover */
+}
+
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #ffe600; /* Color dorado para la línea */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1); /* Animación de subrayado */
+}

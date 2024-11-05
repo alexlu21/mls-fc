@@ -1,0 +1,18 @@
+.footer {
+    background-color: #3b2a2a; /* Color café oscuro */
+    color: white;
+    padding: 20px 30px; /* Espaciado */
+    position: relative; /* Posición relativa para ajustarlo si es necesario */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Subrayar en hover */
+  }
+  
