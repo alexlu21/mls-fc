@@ -48,7 +48,7 @@ const UpdatePerson = () => {
   };
 
   const updatePerson = async (updatedPerson) => {
-    await axios.put(`http://localhost:8080/persona/update/${id_persona}`, updatedPerson);
+    await axios.put(`${url_back}/persona/update/${id_persona}`, updatedPerson);
     navigate("/team");
   };
 
