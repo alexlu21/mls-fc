@@ -41,9 +41,9 @@ const Team = () => {
                 <p className="card-text"><strong>Activo:</strong> {p.activo ? "Sí" : "No"}</p>
               </div>
               <div className="card-footer d-flex text-center gap-4">
-                <Link to={`/update/${p.id_persona}`} className="btn btn-danger flex-grow-1">
+                {/* <Link to={`/update/${p.id_persona}`} className="btn btn-danger flex-grow-1">
                   Editar  
-                </Link>
+                </Link> */}
                 <Link to={`/info/${p.id_persona}`} className="btn btn-info flex-grow-1">
                   Info
                 </Link>
